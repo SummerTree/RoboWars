@@ -86,6 +86,7 @@
 		533544201DD7BA9F00901090 /* VersusLevel1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 533543D31DD7BA9F00901090 /* VersusLevel1.sks */; };
 		533544211DD7BA9F00901090 /* WinterArea.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543D41DD7BA9F00901090 /* WinterArea.atlas */; };
 		533544221DD7BA9F00901090 /* WoodedArea.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543D51DD7BA9F00901090 /* WoodedArea.atlas */; };
+		5335449D1DD7D06200901090 /* Home.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5335449C1DD7D06200901090 /* Home.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -169,6 +170,7 @@
 		533543D31DD7BA9F00901090 /* VersusLevel1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = VersusLevel1.sks; sourceTree = "<group>"; };
 		533543D41DD7BA9F00901090 /* WinterArea.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = WinterArea.atlas; sourceTree = "<group>"; };
 		533543D51DD7BA9F00901090 /* WoodedArea.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = WoodedArea.atlas; sourceTree = "<group>"; };
+		5335449C1DD7D06200901090 /* Home.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Home.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,6 +293,7 @@
 		5335449B1DD7C33A00901090 /* Game Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				5335449C1DD7D06200901090 /* Home.sks */,
 				533543B01DD7BA9F00901090 /* Level1.sks */,
 				533543B11DD7BA9F00901090 /* Level10.sks */,
 				533543B21DD7BA9F00901090 /* Level11.sks */,
@@ -417,6 +420,7 @@
 				5335441A1DD7BA9F00901090 /* SciFi.atlas in Resources */,
 				533543D71DD7BA9F00901090 /* AlienBoss.atlas in Resources */,
 				533544061DD7BA9F00901090 /* Level8.sks in Resources */,
+				5335449D1DD7D06200901090 /* Home.sks in Resources */,
 				533544131DD7BA9F00901090 /* Player2.atlas in Resources */,
 				533544141DD7BA9F00901090 /* PlayerFire.caf in Resources */,
 				533544221DD7BA9F00901090 /* WoodedArea.atlas in Resources */,
