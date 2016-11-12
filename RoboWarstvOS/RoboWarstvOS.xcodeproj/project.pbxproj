@@ -205,45 +205,92 @@
 		533543871DD7BA9F00901090 /* RoboWarstvOS */ = {
 			isa = PBXGroup;
 			children = (
+				533543901DD7BA9F00901090 /* Main.storyboard */,
+				533543AD1DD7BA9F00901090 /* Info.plist */,
+				533543BB1DD7BA9F00901090 /* LevelData.plist */,
+				533543C11DD7BA9F00901090 /* Notes.rtf */,
+				533543AF1DD7BA9F00901090 /* KOMTIT__.ttf */,
+				5335449B1DD7C33A00901090 /* Game Scenes */,
+				5335449A1DD7C32B00901090 /* Game Logic */,
+				533544991DD7C2F800901090 /* Sounds */,
 				533543881DD7BA9F00901090 /* Alien.atlas */,
 				533543891DD7BA9F00901090 /* AlienBoss.atlas */,
-				5335438A1DD7BA9F00901090 /* Ammo.swift */,
-				5335438B1DD7BA9F00901090 /* AppDelegate.swift */,
 				5335438C1DD7BA9F00901090 /* ArmyZombie.atlas */,
 				5335438D1DD7BA9F00901090 /* Assets.xcassets */,
+				533543921DD7BA9F00901090 /* BossAlien.atlas */,
+				533543961DD7BA9F00901090 /* CatDog.atlas */,
+				5335439A1DD7BA9F00901090 /* Desert.atlas */,
+				5335439E1DD7BA9F00901090 /* Explode.atlas */,
+				533543A01DD7BA9F00901090 /* FarmerZombie.atlas */,
+				533543A11DD7BA9F00901090 /* Game.xcassets */,
+				533543A81DD7BA9F00901090 /* GirlNinja.atlas */,
+				533543AE1DD7BA9F00901090 /* Knight.atlas */,
+				533543BE1DD7BA9F00901090 /* MenuAssest.Atlas */,
+				533543C21DD7BA9F00901090 /* OrgeBoss.atlas */,
+				533543C51DD7BA9F00901090 /* Player1.atlas */,
+				533543C61DD7BA9F00901090 /* Player2.atlas */,
+				533543CB1DD7BA9F00901090 /* Robot.atlas */,
+				533543CC1DD7BA9F00901090 /* RobotBoss.atlas */,
+				533543CD1DD7BA9F00901090 /* SciFi.atlas */,
+				533543D11DD7BA9F00901090 /* SpringBoard.atlas */,
+				533543D41DD7BA9F00901090 /* WinterArea.atlas */,
+				533543D51DD7BA9F00901090 /* WoodedArea.atlas */,
+			);
+			path = RoboWarstvOS;
+			sourceTree = "<group>";
+		};
+		533544991DD7C2F800901090 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
 				5335438E1DD7BA9F00901090 /* ATL BEAT 10 by Anonymous.mp3 */,
 				5335438F1DD7BA9F00901090 /* ATL BEAT 8 by Anonymous.mp3 */,
-				533543901DD7BA9F00901090 /* Main.storyboard */,
-				533543921DD7BA9F00901090 /* BossAlien.atlas */,
+				533543971DD7BA9F00901090 /* Coin.caf */,
+				5335439D1DD7BA9F00901090 /* EnemyHurt.caf */,
+				5335439F1DD7BA9F00901090 /* Explosion.caf */,
+				533543C71DD7BA9F00901090 /* PlayerFire.caf */,
+				533543C81DD7BA9F00901090 /* PlayerJump.caf */,
+				533543CF1DD7BA9F00901090 /* Select.caf */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		5335449A1DD7C32B00901090 /* Game Logic */ = {
+			isa = PBXGroup;
+			children = (
+				5335438A1DD7BA9F00901090 /* Ammo.swift */,
+				5335438B1DD7BA9F00901090 /* AppDelegate.swift */,
 				533543931DD7BA9F00901090 /* Bullet.swift */,
 				533543941DD7BA9F00901090 /* Bumper.swift */,
 				533543951DD7BA9F00901090 /* Button.swift */,
-				533543961DD7BA9F00901090 /* CatDog.atlas */,
-				533543971DD7BA9F00901090 /* Coin.caf */,
 				533543981DD7BA9F00901090 /* Coin.swift */,
 				533543991DD7BA9F00901090 /* DeadZone.swift */,
-				5335439A1DD7BA9F00901090 /* Desert.atlas */,
 				5335439B1DD7BA9F00901090 /* Enemy.swift */,
 				5335439C1DD7BA9F00901090 /* EnemyBumper.swift */,
-				5335439D1DD7BA9F00901090 /* EnemyHurt.caf */,
-				5335439E1DD7BA9F00901090 /* Explode.atlas */,
-				5335439F1DD7BA9F00901090 /* Explosion.caf */,
-				533543A01DD7BA9F00901090 /* FarmerZombie.atlas */,
-				533543A11DD7BA9F00901090 /* Game.xcassets */,
 				533543A21DD7BA9F00901090 /* GameScene.swift */,
 				533543A31DD7BA9F00901090 /* GameScene_GameController.swift */,
 				533543A41DD7BA9F00901090 /* GameScene_OnePlayerMode.swift */,
 				533543A51DD7BA9F00901090 /* GameScene_Operations.swift */,
 				533543A61DD7BA9F00901090 /* GameScene_Physics.swift */,
 				533543A71DD7BA9F00901090 /* GameViewController.swift */,
-				533543A81DD7BA9F00901090 /* GirlNinja.atlas */,
 				533543A91DD7BA9F00901090 /* Helpers.swift */,
 				533543AA1DD7BA9F00901090 /* Home.swift */,
 				533543AB1DD7BA9F00901090 /* Home_GameController.swift */,
 				533543AC1DD7BA9F00901090 /* Home_Store.swift */,
-				533543AD1DD7BA9F00901090 /* Info.plist */,
-				533543AE1DD7BA9F00901090 /* Knight.atlas */,
-				533543AF1DD7BA9F00901090 /* KOMTIT__.ttf */,
+				533543BF1DD7BA9F00901090 /* MovingPlatform.swift */,
+				533543C01DD7BA9F00901090 /* MovingPole.swift */,
+				533543C31DD7BA9F00901090 /* Platform.swift */,
+				533543C41DD7BA9F00901090 /* Player.swift */,
+				533543C91DD7BA9F00901090 /* Pole.swift */,
+				533543CA1DD7BA9F00901090 /* Portal.swift */,
+				533543D01DD7BA9F00901090 /* SimpleEnemy.swift */,
+				533543D21DD7BA9F00901090 /* SpringBoard.swift */,
+			);
+			name = "Game Logic";
+			sourceTree = "<group>";
+		};
+		5335449B1DD7C33A00901090 /* Game Scenes */ = {
+			isa = PBXGroup;
+			children = (
 				533543B01DD7BA9F00901090 /* Level1.sks */,
 				533543B11DD7BA9F00901090 /* Level10.sks */,
 				533543B21DD7BA9F00901090 /* Level11.sks */,
@@ -255,35 +302,12 @@
 				533543B81DD7BA9F00901090 /* Level7.sks */,
 				533543B91DD7BA9F00901090 /* Level8.sks */,
 				533543BA1DD7BA9F00901090 /* Level9.sks */,
-				533543BB1DD7BA9F00901090 /* LevelData.plist */,
 				533543BC1DD7BA9F00901090 /* LevelSelect1.sks */,
 				533543BD1DD7BA9F00901090 /* LevelSelect2.sks */,
-				533543BE1DD7BA9F00901090 /* MenuAssest.Atlas */,
-				533543BF1DD7BA9F00901090 /* MovingPlatform.swift */,
-				533543C01DD7BA9F00901090 /* MovingPole.swift */,
-				533543C11DD7BA9F00901090 /* Notes.rtf */,
-				533543C21DD7BA9F00901090 /* OrgeBoss.atlas */,
-				533543C31DD7BA9F00901090 /* Platform.swift */,
-				533543C41DD7BA9F00901090 /* Player.swift */,
-				533543C51DD7BA9F00901090 /* Player1.atlas */,
-				533543C61DD7BA9F00901090 /* Player2.atlas */,
-				533543C71DD7BA9F00901090 /* PlayerFire.caf */,
-				533543C81DD7BA9F00901090 /* PlayerJump.caf */,
-				533543C91DD7BA9F00901090 /* Pole.swift */,
-				533543CA1DD7BA9F00901090 /* Portal.swift */,
-				533543CB1DD7BA9F00901090 /* Robot.atlas */,
-				533543CC1DD7BA9F00901090 /* RobotBoss.atlas */,
-				533543CD1DD7BA9F00901090 /* SciFi.atlas */,
-				533543CE1DD7BA9F00901090 /* SecretLevel1.sks */,
-				533543CF1DD7BA9F00901090 /* Select.caf */,
-				533543D01DD7BA9F00901090 /* SimpleEnemy.swift */,
-				533543D11DD7BA9F00901090 /* SpringBoard.atlas */,
-				533543D21DD7BA9F00901090 /* SpringBoard.swift */,
 				533543D31DD7BA9F00901090 /* VersusLevel1.sks */,
-				533543D41DD7BA9F00901090 /* WinterArea.atlas */,
-				533543D51DD7BA9F00901090 /* WoodedArea.atlas */,
+				533543CE1DD7BA9F00901090 /* SecretLevel1.sks */,
 			);
-			path = RoboWarstvOS;
+			name = "Game Scenes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
