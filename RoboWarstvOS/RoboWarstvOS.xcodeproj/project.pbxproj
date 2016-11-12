@@ -586,7 +586,7 @@
 				DEVELOPMENT_TEAM = JN6SRFFEJW;
 				INFOPLIST_FILE = "$(SRCROOT)/RoboWarstvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RoboWars.DocsPlayground.www;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WorldWarriors.DocsPlayground.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
@@ -603,7 +603,7 @@
 				DEVELOPMENT_TEAM = JN6SRFFEJW;
 				INFOPLIST_FILE = "$(SRCROOT)/RoboWarstvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RoboWars.DocsPlayground.www;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WorldWarriors.DocsPlayground.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
