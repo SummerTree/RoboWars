@@ -35,7 +35,7 @@
             BlueprintIdentifier = "0A364F0E1C1524FC0048E88C"
             BuildableName = "SideScrollertvOS.app"
             BlueprintName = "SideScrollertvOS"
-            ReferencedContainer = "container:SideScrollertvOS.xcodeproj">
+            ReferencedContainer = "container:RoboWarstvOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "0A364F0E1C1524FC0048E88C"
             BuildableName = "SideScrollertvOS.app"
             BlueprintName = "SideScrollertvOS"
-            ReferencedContainer = "container:SideScrollertvOS.xcodeproj">
+            ReferencedContainer = "container:RoboWarstvOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
