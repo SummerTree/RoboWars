@@ -7,167 +7,168 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A11EB361C15EDD0001CF79F /* Robot.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 0A11EB351C15EDD0001CF79F /* Robot.atlas */; };
 		0A1BCEF91CEE135F00F739BE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1BCEF81CEE135F00F739BE /* StoreKit.framework */; };
-		0A1BCEFB1CEE137C00F739BE /* Home_Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1BCEFA1CEE137C00F739BE /* Home_Store.swift */; };
-		0A364F1B1C1524FC0048E88C /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A364F1A1C1524FC0048E88C /* Game.xcassets */; };
-		0A364F1E1C1524FC0048E88C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A364F1C1C1524FC0048E88C /* Main.storyboard */; };
-		0A364F201C1524FC0048E88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A364F1F1C1524FC0048E88C /* Assets.xcassets */; };
 		0A364F281C15250F0048E88C /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A364F271C15250F0048E88C /* GameController.framework */; };
-		0A364F461C1526070048E88C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F2C1C1526070048E88C /* AppDelegate.swift */; };
-		0A364F481C1526070048E88C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F2E1C1526070048E88C /* GameScene.swift */; };
-		0A364F491C1526070048E88C /* GameScene_GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F2F1C1526070048E88C /* GameScene_GameController.swift */; };
-		0A364F4A1C1526070048E88C /* GameScene_OnePlayerMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F301C1526070048E88C /* GameScene_OnePlayerMode.swift */; };
-		0A364F4B1C1526070048E88C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F311C1526070048E88C /* Home.swift */; };
-		0A364F4C1C1526070048E88C /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F321C1526070048E88C /* Button.swift */; };
-		0A364F4D1C1526070048E88C /* Home_GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F331C1526070048E88C /* Home_GameController.swift */; };
-		0A364F4E1C1526070048E88C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F341C1526070048E88C /* Player.swift */; };
-		0A364F4F1C1526070048E88C /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F351C1526070048E88C /* Platform.swift */; };
-		0A364F501C1526070048E88C /* MovingPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F361C1526070048E88C /* MovingPlatform.swift */; };
-		0A364F531C1526070048E88C /* DeadZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F391C1526070048E88C /* DeadZone.swift */; };
-		0A364F541C1526070048E88C /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F3A1C1526070048E88C /* Enemy.swift */; };
-		0A364F551C1526070048E88C /* SimpleEnemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F3B1C1526070048E88C /* SimpleEnemy.swift */; };
-		0A364F561C1526070048E88C /* Ammo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F3C1C1526070048E88C /* Ammo.swift */; };
-		0A364F571C1526070048E88C /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F3D1C1526070048E88C /* Bullet.swift */; };
-		0A364F581C1526070048E88C /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F3E1C1526070048E88C /* Coin.swift */; };
-		0A364F591C1526070048E88C /* Portal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F3F1C1526070048E88C /* Portal.swift */; };
-		0A364F5A1C1526070048E88C /* Bumper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F401C1526070048E88C /* Bumper.swift */; };
-		0A364F5B1C1526070048E88C /* Pole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F411C1526070048E88C /* Pole.swift */; };
-		0A364F5C1C1526070048E88C /* MovingPole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F421C1526070048E88C /* MovingPole.swift */; };
-		0A364F5D1C1526070048E88C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F431C1526070048E88C /* GameViewController.swift */; };
-		0A364F5E1C1526070048E88C /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A364F441C1526070048E88C /* Helpers.swift */; };
-		0A364F621C1526840048E88C /* Select.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0A364F611C1526840048E88C /* Select.caf */; };
-		0A40B6C51C1688E700C94BE7 /* Notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0A40B6C41C1688E700C94BE7 /* Notes.rtf */; };
-		0A4ADF061D00BDB700962076 /* SpringBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4ADF051D00BDB700962076 /* SpringBoard.swift */; };
-		0A4ADF081D00C2E800962076 /* SpringBoard.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 0A4ADF071D00C2E800962076 /* SpringBoard.atlas */; };
-		0A544C081C162E10008AC539 /* EnemyBumper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A544C071C162E10008AC539 /* EnemyBumper.swift */; };
-		0A544C0E1C1635A2008AC539 /* VersusLevel1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0A544C0D1C1635A2008AC539 /* VersusLevel1.sks */; };
-		0A5971631C172F72000CE1C7 /* GameScene_Physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5971621C172F72000CE1C7 /* GameScene_Physics.swift */; };
-		0A5971651C173030000CE1C7 /* GameScene_Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5971641C173030000CE1C7 /* GameScene_Operations.swift */; };
-		0A5D4A5D1C161FF100494951 /* PlayerFire.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0A5D4A5C1C161FF100494951 /* PlayerFire.caf */; };
-		0A5D4A5F1C161FFB00494951 /* PlayerJump.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0A5D4A5E1C161FFB00494951 /* PlayerJump.caf */; };
-		0A5D4A611C16234E00494951 /* Coin.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0A5D4A601C16234E00494951 /* Coin.caf */; };
-		0A822B321C166AAF0049753B /* EnemyHurt.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0A822B311C166AAF0049753B /* EnemyHurt.caf */; };
-		0A8DEF0A1C1A35F500FCACD6 /* Explosion.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8DEF091C1A35F500FCACD6 /* Explosion.caf */; };
-		0AAF2A391C1539C400569D6C /* KOMTIT__.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AAF2A381C1539C400569D6C /* KOMTIT__.ttf */; };
-		0AAF2A3B1C15460800569D6C /* Player1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 0AAF2A3A1C15460800569D6C /* Player1.atlas */; };
-		0AAF2A411C154F5200569D6C /* Player2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 0AAF2A401C154F5200569D6C /* Player2.atlas */; };
-		0AAF2A431C1550C100569D6C /* Explode.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 0AAF2A421C1550C100569D6C /* Explode.atlas */; };
-		0AC7D3221C2197D6006E2B40 /* ATL BEAT 8 by Anonymous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0AC7D3201C2197D6006E2B40 /* ATL BEAT 8 by Anonymous.mp3 */; };
-		0AC7D3231C2197D6006E2B40 /* ATL BEAT 10 by Anonymous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0AC7D3211C2197D6006E2B40 /* ATL BEAT 10 by Anonymous.mp3 */; };
-		0AE416D71C480CF800ADBDE9 /* SecretLevel1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0AE416D61C480CF800ADBDE9 /* SecretLevel1.sks */; };
-		533543801DD7926200901090 /* Home.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5335437F1DD7926200901090 /* Home.sks */; };
-		533543831DD7928900901090 /* LevelSelect1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 533543811DD7928900901090 /* LevelSelect1.sks */; };
-		533543841DD7928900901090 /* LevelSelect2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 533543821DD7928900901090 /* LevelSelect2.sks */; };
-		533543861DD7932400901090 /* MenuAssest.Atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543851DD7932400901090 /* MenuAssest.Atlas */; };
-		53CBC6211DD78D83001CEE0E /* LevelData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC6201DD78D83001CEE0E /* LevelData.plist */; };
-		53CBC6241DD78DA7001CEE0E /* Alien.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC6221DD78DA7001CEE0E /* Alien.atlas */; };
-		53CBC6251DD78DA7001CEE0E /* AlienBoss.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC6231DD78DA7001CEE0E /* AlienBoss.atlas */; };
-		53CBC62B1DD78DE6001CEE0E /* ArmyZombie.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC62A1DD78DE6001CEE0E /* ArmyZombie.atlas */; };
-		53CBC62D1DD78DEF001CEE0E /* BossAlien.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC62C1DD78DEF001CEE0E /* BossAlien.atlas */; };
-		53CBC62F1DD78DFA001CEE0E /* CatDog.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC62E1DD78DFA001CEE0E /* CatDog.atlas */; };
-		53CBC6311DD78E02001CEE0E /* Desert.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC6301DD78E02001CEE0E /* Desert.atlas */; };
-		53CBC6331DD78E0B001CEE0E /* FarmerZombie.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC6321DD78E0B001CEE0E /* FarmerZombie.atlas */; };
-		53CBC6351DD78E18001CEE0E /* GirlNinja.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC6341DD78E18001CEE0E /* GirlNinja.atlas */; };
-		53CBC6371DD78E20001CEE0E /* Knight.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC6361DD78E20001CEE0E /* Knight.atlas */; };
-		53CBC6391DD78E28001CEE0E /* OrgeBoss.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC6381DD78E28001CEE0E /* OrgeBoss.atlas */; };
-		53CBC63B1DD78E62001CEE0E /* SciFi.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC63A1DD78E62001CEE0E /* SciFi.atlas */; };
-		53CBC63E1DD78E6B001CEE0E /* WinterArea.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC63C1DD78E6B001CEE0E /* WinterArea.atlas */; };
-		53CBC63F1DD78E6B001CEE0E /* WoodedArea.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC63D1DD78E6B001CEE0E /* WoodedArea.atlas */; };
-		53CBC64B1DD79085001CEE0E /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC6401DD79085001CEE0E /* Level1.sks */; };
-		53CBC64C1DD79085001CEE0E /* Level2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC6411DD79085001CEE0E /* Level2.sks */; };
-		53CBC64D1DD79085001CEE0E /* Level3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC6421DD79085001CEE0E /* Level3.sks */; };
-		53CBC64E1DD79085001CEE0E /* Level4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC6431DD79085001CEE0E /* Level4.sks */; };
-		53CBC64F1DD79085001CEE0E /* Level5.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC6441DD79085001CEE0E /* Level5.sks */; };
-		53CBC6501DD79085001CEE0E /* Level6.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC6451DD79085001CEE0E /* Level6.sks */; };
-		53CBC6511DD79085001CEE0E /* Level7.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC6461DD79085001CEE0E /* Level7.sks */; };
-		53CBC6521DD79085001CEE0E /* Level8.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC6471DD79085001CEE0E /* Level8.sks */; };
-		53CBC6531DD79085001CEE0E /* Level9.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC6481DD79085001CEE0E /* Level9.sks */; };
-		53CBC6541DD79085001CEE0E /* Level10.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC6491DD79085001CEE0E /* Level10.sks */; };
-		53CBC6551DD79085001CEE0E /* Level11.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53CBC64A1DD79085001CEE0E /* Level11.sks */; };
+		533543D61DD7BA9F00901090 /* Alien.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543881DD7BA9F00901090 /* Alien.atlas */; };
+		533543D71DD7BA9F00901090 /* AlienBoss.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543891DD7BA9F00901090 /* AlienBoss.atlas */; };
+		533543D81DD7BA9F00901090 /* Ammo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5335438A1DD7BA9F00901090 /* Ammo.swift */; };
+		533543D91DD7BA9F00901090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5335438B1DD7BA9F00901090 /* AppDelegate.swift */; };
+		533543DA1DD7BA9F00901090 /* ArmyZombie.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 5335438C1DD7BA9F00901090 /* ArmyZombie.atlas */; };
+		533543DB1DD7BA9F00901090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5335438D1DD7BA9F00901090 /* Assets.xcassets */; };
+		533543DC1DD7BA9F00901090 /* ATL BEAT 10 by Anonymous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5335438E1DD7BA9F00901090 /* ATL BEAT 10 by Anonymous.mp3 */; };
+		533543DD1DD7BA9F00901090 /* ATL BEAT 8 by Anonymous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5335438F1DD7BA9F00901090 /* ATL BEAT 8 by Anonymous.mp3 */; };
+		533543DE1DD7BA9F00901090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533543901DD7BA9F00901090 /* Main.storyboard */; };
+		533543DF1DD7BA9F00901090 /* BossAlien.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543921DD7BA9F00901090 /* BossAlien.atlas */; };
+		533543E01DD7BA9F00901090 /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543931DD7BA9F00901090 /* Bullet.swift */; };
+		533543E11DD7BA9F00901090 /* Bumper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543941DD7BA9F00901090 /* Bumper.swift */; };
+		533543E21DD7BA9F00901090 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543951DD7BA9F00901090 /* Button.swift */; };
+		533543E31DD7BA9F00901090 /* CatDog.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543961DD7BA9F00901090 /* CatDog.atlas */; };
+		533543E41DD7BA9F00901090 /* Coin.caf in Resources */ = {isa = PBXBuildFile; fileRef = 533543971DD7BA9F00901090 /* Coin.caf */; };
+		533543E51DD7BA9F00901090 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543981DD7BA9F00901090 /* Coin.swift */; };
+		533543E61DD7BA9F00901090 /* DeadZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543991DD7BA9F00901090 /* DeadZone.swift */; };
+		533543E71DD7BA9F00901090 /* Desert.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 5335439A1DD7BA9F00901090 /* Desert.atlas */; };
+		533543E81DD7BA9F00901090 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5335439B1DD7BA9F00901090 /* Enemy.swift */; };
+		533543E91DD7BA9F00901090 /* EnemyBumper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5335439C1DD7BA9F00901090 /* EnemyBumper.swift */; };
+		533543EA1DD7BA9F00901090 /* EnemyHurt.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5335439D1DD7BA9F00901090 /* EnemyHurt.caf */; };
+		533543EB1DD7BA9F00901090 /* Explode.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 5335439E1DD7BA9F00901090 /* Explode.atlas */; };
+		533543EC1DD7BA9F00901090 /* Explosion.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5335439F1DD7BA9F00901090 /* Explosion.caf */; };
+		533543ED1DD7BA9F00901090 /* FarmerZombie.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543A01DD7BA9F00901090 /* FarmerZombie.atlas */; };
+		533543EE1DD7BA9F00901090 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533543A11DD7BA9F00901090 /* Game.xcassets */; };
+		533543EF1DD7BA9F00901090 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543A21DD7BA9F00901090 /* GameScene.swift */; };
+		533543F01DD7BA9F00901090 /* GameScene_GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543A31DD7BA9F00901090 /* GameScene_GameController.swift */; };
+		533543F11DD7BA9F00901090 /* GameScene_OnePlayerMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543A41DD7BA9F00901090 /* GameScene_OnePlayerMode.swift */; };
+		533543F21DD7BA9F00901090 /* GameScene_Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543A51DD7BA9F00901090 /* GameScene_Operations.swift */; };
+		533543F31DD7BA9F00901090 /* GameScene_Physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543A61DD7BA9F00901090 /* GameScene_Physics.swift */; };
+		533543F41DD7BA9F00901090 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543A71DD7BA9F00901090 /* GameViewController.swift */; };
+		533543F51DD7BA9F00901090 /* GirlNinja.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543A81DD7BA9F00901090 /* GirlNinja.atlas */; };
+		533543F61DD7BA9F00901090 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543A91DD7BA9F00901090 /* Helpers.swift */; };
+		533543F71DD7BA9F00901090 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543AA1DD7BA9F00901090 /* Home.swift */; };
+		533543F81DD7BA9F00901090 /* Home_GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543AB1DD7BA9F00901090 /* Home_GameController.swift */; };
+		533543F91DD7BA9F00901090 /* Home_Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543AC1DD7BA9F00901090 /* Home_Store.swift */; };
+		533543FA1DD7BA9F00901090 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 533543AD1DD7BA9F00901090 /* Info.plist */; };
+		533543FB1DD7BA9F00901090 /* Knight.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543AE1DD7BA9F00901090 /* Knight.atlas */; };
+		533543FC1DD7BA9F00901090 /* KOMTIT__.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 533543AF1DD7BA9F00901090 /* KOMTIT__.ttf */; };
+		533543FD1DD7BA9F00901090 /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 533543B01DD7BA9F00901090 /* Level1.sks */; };
+		533543FE1DD7BA9F00901090 /* Level10.sks in Resources */ = {isa = PBXBuildFile; fileRef = 533543B11DD7BA9F00901090 /* Level10.sks */; };
+		533543FF1DD7BA9F00901090 /* Level11.sks in Resources */ = {isa = PBXBuildFile; fileRef = 533543B21DD7BA9F00901090 /* Level11.sks */; };
+		533544001DD7BA9F00901090 /* Level2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 533543B31DD7BA9F00901090 /* Level2.sks */; };
+		533544011DD7BA9F00901090 /* Level3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 533543B41DD7BA9F00901090 /* Level3.sks */; };
+		533544021DD7BA9F00901090 /* Level4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 533543B51DD7BA9F00901090 /* Level4.sks */; };
+		533544031DD7BA9F00901090 /* Level5.sks in Resources */ = {isa = PBXBuildFile; fileRef = 533543B61DD7BA9F00901090 /* Level5.sks */; };
+		533544041DD7BA9F00901090 /* Level6.sks in Resources */ = {isa = PBXBuildFile; fileRef = 533543B71DD7BA9F00901090 /* Level6.sks */; };
+		533544051DD7BA9F00901090 /* Level7.sks in Resources */ = {isa = PBXBuildFile; fileRef = 533543B81DD7BA9F00901090 /* Level7.sks */; };
+		533544061DD7BA9F00901090 /* Level8.sks in Resources */ = {isa = PBXBuildFile; fileRef = 533543B91DD7BA9F00901090 /* Level8.sks */; };
+		533544071DD7BA9F00901090 /* Level9.sks in Resources */ = {isa = PBXBuildFile; fileRef = 533543BA1DD7BA9F00901090 /* Level9.sks */; };
+		533544081DD7BA9F00901090 /* LevelData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 533543BB1DD7BA9F00901090 /* LevelData.plist */; };
+		533544091DD7BA9F00901090 /* LevelSelect1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 533543BC1DD7BA9F00901090 /* LevelSelect1.sks */; };
+		5335440A1DD7BA9F00901090 /* LevelSelect2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 533543BD1DD7BA9F00901090 /* LevelSelect2.sks */; };
+		5335440B1DD7BA9F00901090 /* MenuAssest.Atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543BE1DD7BA9F00901090 /* MenuAssest.Atlas */; };
+		5335440C1DD7BA9F00901090 /* MovingPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543BF1DD7BA9F00901090 /* MovingPlatform.swift */; };
+		5335440D1DD7BA9F00901090 /* MovingPole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543C01DD7BA9F00901090 /* MovingPole.swift */; };
+		5335440E1DD7BA9F00901090 /* Notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 533543C11DD7BA9F00901090 /* Notes.rtf */; };
+		5335440F1DD7BA9F00901090 /* OrgeBoss.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543C21DD7BA9F00901090 /* OrgeBoss.atlas */; };
+		533544101DD7BA9F00901090 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543C31DD7BA9F00901090 /* Platform.swift */; };
+		533544111DD7BA9F00901090 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543C41DD7BA9F00901090 /* Player.swift */; };
+		533544121DD7BA9F00901090 /* Player1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543C51DD7BA9F00901090 /* Player1.atlas */; };
+		533544131DD7BA9F00901090 /* Player2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543C61DD7BA9F00901090 /* Player2.atlas */; };
+		533544141DD7BA9F00901090 /* PlayerFire.caf in Resources */ = {isa = PBXBuildFile; fileRef = 533543C71DD7BA9F00901090 /* PlayerFire.caf */; };
+		533544151DD7BA9F00901090 /* PlayerJump.caf in Resources */ = {isa = PBXBuildFile; fileRef = 533543C81DD7BA9F00901090 /* PlayerJump.caf */; };
+		533544161DD7BA9F00901090 /* Pole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543C91DD7BA9F00901090 /* Pole.swift */; };
+		533544171DD7BA9F00901090 /* Portal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543CA1DD7BA9F00901090 /* Portal.swift */; };
+		533544181DD7BA9F00901090 /* Robot.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543CB1DD7BA9F00901090 /* Robot.atlas */; };
+		533544191DD7BA9F00901090 /* RobotBoss.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543CC1DD7BA9F00901090 /* RobotBoss.atlas */; };
+		5335441A1DD7BA9F00901090 /* SciFi.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543CD1DD7BA9F00901090 /* SciFi.atlas */; };
+		5335441B1DD7BA9F00901090 /* SecretLevel1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 533543CE1DD7BA9F00901090 /* SecretLevel1.sks */; };
+		5335441C1DD7BA9F00901090 /* Select.caf in Resources */ = {isa = PBXBuildFile; fileRef = 533543CF1DD7BA9F00901090 /* Select.caf */; };
+		5335441D1DD7BA9F00901090 /* SimpleEnemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543D01DD7BA9F00901090 /* SimpleEnemy.swift */; };
+		5335441E1DD7BA9F00901090 /* SpringBoard.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543D11DD7BA9F00901090 /* SpringBoard.atlas */; };
+		5335441F1DD7BA9F00901090 /* SpringBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543D21DD7BA9F00901090 /* SpringBoard.swift */; };
+		533544201DD7BA9F00901090 /* VersusLevel1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 533543D31DD7BA9F00901090 /* VersusLevel1.sks */; };
+		533544211DD7BA9F00901090 /* WinterArea.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543D41DD7BA9F00901090 /* WinterArea.atlas */; };
+		533544221DD7BA9F00901090 /* WoodedArea.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 533543D51DD7BA9F00901090 /* WoodedArea.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A11EB351C15EDD0001CF79F /* Robot.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Robot.atlas; sourceTree = "<group>"; };
 		0A1BCEF81CEE135F00F739BE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		0A1BCEFA1CEE137C00F739BE /* Home_Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home_Store.swift; sourceTree = "<group>"; };
 		0A364F0F1C1524FC0048E88C /* SideScrollertvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideScrollertvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A364F1A1C1524FC0048E88C /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
-		0A364F1D1C1524FC0048E88C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0A364F1F1C1524FC0048E88C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0A364F211C1524FC0048E88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A364F271C15250F0048E88C /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
-		0A364F2C1C1526070048E88C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A364F2E1C1526070048E88C /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		0A364F2F1C1526070048E88C /* GameScene_GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene_GameController.swift; sourceTree = "<group>"; };
-		0A364F301C1526070048E88C /* GameScene_OnePlayerMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene_OnePlayerMode.swift; sourceTree = "<group>"; };
-		0A364F311C1526070048E88C /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		0A364F321C1526070048E88C /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
-		0A364F331C1526070048E88C /* Home_GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home_GameController.swift; sourceTree = "<group>"; };
-		0A364F341C1526070048E88C /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		0A364F351C1526070048E88C /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
-		0A364F361C1526070048E88C /* MovingPlatform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovingPlatform.swift; sourceTree = "<group>"; };
-		0A364F391C1526070048E88C /* DeadZone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeadZone.swift; sourceTree = "<group>"; };
-		0A364F3A1C1526070048E88C /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
-		0A364F3B1C1526070048E88C /* SimpleEnemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleEnemy.swift; sourceTree = "<group>"; };
-		0A364F3C1C1526070048E88C /* Ammo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ammo.swift; sourceTree = "<group>"; };
-		0A364F3D1C1526070048E88C /* Bullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
-		0A364F3E1C1526070048E88C /* Coin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
-		0A364F3F1C1526070048E88C /* Portal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Portal.swift; sourceTree = "<group>"; };
-		0A364F401C1526070048E88C /* Bumper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bumper.swift; sourceTree = "<group>"; };
-		0A364F411C1526070048E88C /* Pole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pole.swift; sourceTree = "<group>"; };
-		0A364F421C1526070048E88C /* MovingPole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovingPole.swift; sourceTree = "<group>"; };
-		0A364F431C1526070048E88C /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		0A364F441C1526070048E88C /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		0A364F611C1526840048E88C /* Select.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Select.caf; sourceTree = "<group>"; };
-		0A40B6C41C1688E700C94BE7 /* Notes.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Notes.rtf; sourceTree = "<group>"; };
-		0A4ADF051D00BDB700962076 /* SpringBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringBoard.swift; sourceTree = "<group>"; };
-		0A4ADF071D00C2E800962076 /* SpringBoard.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SpringBoard.atlas; sourceTree = "<group>"; };
-		0A544C071C162E10008AC539 /* EnemyBumper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyBumper.swift; sourceTree = "<group>"; };
-		0A544C0D1C1635A2008AC539 /* VersusLevel1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = VersusLevel1.sks; sourceTree = "<group>"; };
-		0A5971621C172F72000CE1C7 /* GameScene_Physics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene_Physics.swift; sourceTree = "<group>"; };
-		0A5971641C173030000CE1C7 /* GameScene_Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene_Operations.swift; sourceTree = "<group>"; };
-		0A5D4A5C1C161FF100494951 /* PlayerFire.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlayerFire.caf; sourceTree = "<group>"; };
-		0A5D4A5E1C161FFB00494951 /* PlayerJump.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlayerJump.caf; sourceTree = "<group>"; };
-		0A5D4A601C16234E00494951 /* Coin.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Coin.caf; sourceTree = "<group>"; };
-		0A822B311C166AAF0049753B /* EnemyHurt.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EnemyHurt.caf; sourceTree = "<group>"; };
-		0A8DEF091C1A35F500FCACD6 /* Explosion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Explosion.caf; sourceTree = "<group>"; };
-		0AAF2A381C1539C400569D6C /* KOMTIT__.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KOMTIT__.ttf; sourceTree = "<group>"; };
-		0AAF2A3A1C15460800569D6C /* Player1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Player1.atlas; sourceTree = "<group>"; };
-		0AAF2A401C154F5200569D6C /* Player2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Player2.atlas; sourceTree = "<group>"; };
-		0AAF2A421C1550C100569D6C /* Explode.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Explode.atlas; sourceTree = "<group>"; };
-		0AC7D3201C2197D6006E2B40 /* ATL BEAT 8 by Anonymous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ATL BEAT 8 by Anonymous.mp3"; sourceTree = "<group>"; };
-		0AC7D3211C2197D6006E2B40 /* ATL BEAT 10 by Anonymous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ATL BEAT 10 by Anonymous.mp3"; sourceTree = "<group>"; };
-		0AE416D61C480CF800ADBDE9 /* SecretLevel1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SecretLevel1.sks; sourceTree = "<group>"; };
-		5335437F1DD7926200901090 /* Home.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Home.sks; path = "../../../../Documents/Programming /CapstoneProject/SciFi Game/Platformmer/For_tvOS/SideScrollertvOS/Home.sks"; sourceTree = "<group>"; };
-		533543811DD7928900901090 /* LevelSelect1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LevelSelect1.sks; sourceTree = "<group>"; };
-		533543821DD7928900901090 /* LevelSelect2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LevelSelect2.sks; sourceTree = "<group>"; };
-		533543851DD7932400901090 /* MenuAssest.Atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = MenuAssest.Atlas; sourceTree = "<group>"; };
-		53CBC6201DD78D83001CEE0E /* LevelData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LevelData.plist; sourceTree = "<group>"; };
-		53CBC6221DD78DA7001CEE0E /* Alien.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Alien.atlas; sourceTree = "<group>"; };
-		53CBC6231DD78DA7001CEE0E /* AlienBoss.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = AlienBoss.atlas; sourceTree = "<group>"; };
-		53CBC62A1DD78DE6001CEE0E /* ArmyZombie.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ArmyZombie.atlas; sourceTree = "<group>"; };
-		53CBC62C1DD78DEF001CEE0E /* BossAlien.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BossAlien.atlas; sourceTree = "<group>"; };
-		53CBC62E1DD78DFA001CEE0E /* CatDog.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = CatDog.atlas; sourceTree = "<group>"; };
-		53CBC6301DD78E02001CEE0E /* Desert.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Desert.atlas; sourceTree = "<group>"; };
-		53CBC6321DD78E0B001CEE0E /* FarmerZombie.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = FarmerZombie.atlas; sourceTree = "<group>"; };
-		53CBC6341DD78E18001CEE0E /* GirlNinja.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GirlNinja.atlas; sourceTree = "<group>"; };
-		53CBC6361DD78E20001CEE0E /* Knight.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Knight.atlas; sourceTree = "<group>"; };
-		53CBC6381DD78E28001CEE0E /* OrgeBoss.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = OrgeBoss.atlas; sourceTree = "<group>"; };
-		53CBC63A1DD78E62001CEE0E /* SciFi.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SciFi.atlas; sourceTree = "<group>"; };
-		53CBC63C1DD78E6B001CEE0E /* WinterArea.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = WinterArea.atlas; sourceTree = "<group>"; };
-		53CBC63D1DD78E6B001CEE0E /* WoodedArea.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = WoodedArea.atlas; sourceTree = "<group>"; };
-		53CBC6401DD79085001CEE0E /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
-		53CBC6411DD79085001CEE0E /* Level2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level2.sks; sourceTree = "<group>"; };
-		53CBC6421DD79085001CEE0E /* Level3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level3.sks; sourceTree = "<group>"; };
-		53CBC6431DD79085001CEE0E /* Level4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level4.sks; sourceTree = "<group>"; };
-		53CBC6441DD79085001CEE0E /* Level5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level5.sks; sourceTree = "<group>"; };
-		53CBC6451DD79085001CEE0E /* Level6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level6.sks; sourceTree = "<group>"; };
-		53CBC6461DD79085001CEE0E /* Level7.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level7.sks; sourceTree = "<group>"; };
-		53CBC6471DD79085001CEE0E /* Level8.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level8.sks; sourceTree = "<group>"; };
-		53CBC6481DD79085001CEE0E /* Level9.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level9.sks; sourceTree = "<group>"; };
-		53CBC6491DD79085001CEE0E /* Level10.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level10.sks; sourceTree = "<group>"; };
-		53CBC64A1DD79085001CEE0E /* Level11.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level11.sks; sourceTree = "<group>"; };
+		533543881DD7BA9F00901090 /* Alien.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Alien.atlas; sourceTree = "<group>"; };
+		533543891DD7BA9F00901090 /* AlienBoss.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = AlienBoss.atlas; sourceTree = "<group>"; };
+		5335438A1DD7BA9F00901090 /* Ammo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ammo.swift; sourceTree = "<group>"; };
+		5335438B1DD7BA9F00901090 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5335438C1DD7BA9F00901090 /* ArmyZombie.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ArmyZombie.atlas; sourceTree = "<group>"; };
+		5335438D1DD7BA9F00901090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5335438E1DD7BA9F00901090 /* ATL BEAT 10 by Anonymous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ATL BEAT 10 by Anonymous.mp3"; sourceTree = "<group>"; };
+		5335438F1DD7BA9F00901090 /* ATL BEAT 8 by Anonymous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ATL BEAT 8 by Anonymous.mp3"; sourceTree = "<group>"; };
+		533543911DD7BA9F00901090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		533543921DD7BA9F00901090 /* BossAlien.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BossAlien.atlas; sourceTree = "<group>"; };
+		533543931DD7BA9F00901090 /* Bullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
+		533543941DD7BA9F00901090 /* Bumper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bumper.swift; sourceTree = "<group>"; };
+		533543951DD7BA9F00901090 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		533543961DD7BA9F00901090 /* CatDog.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = CatDog.atlas; sourceTree = "<group>"; };
+		533543971DD7BA9F00901090 /* Coin.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Coin.caf; sourceTree = "<group>"; };
+		533543981DD7BA9F00901090 /* Coin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		533543991DD7BA9F00901090 /* DeadZone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeadZone.swift; sourceTree = "<group>"; };
+		5335439A1DD7BA9F00901090 /* Desert.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Desert.atlas; sourceTree = "<group>"; };
+		5335439B1DD7BA9F00901090 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		5335439C1DD7BA9F00901090 /* EnemyBumper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyBumper.swift; sourceTree = "<group>"; };
+		5335439D1DD7BA9F00901090 /* EnemyHurt.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EnemyHurt.caf; sourceTree = "<group>"; };
+		5335439E1DD7BA9F00901090 /* Explode.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Explode.atlas; sourceTree = "<group>"; };
+		5335439F1DD7BA9F00901090 /* Explosion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Explosion.caf; sourceTree = "<group>"; };
+		533543A01DD7BA9F00901090 /* FarmerZombie.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = FarmerZombie.atlas; sourceTree = "<group>"; };
+		533543A11DD7BA9F00901090 /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
+		533543A21DD7BA9F00901090 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		533543A31DD7BA9F00901090 /* GameScene_GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene_GameController.swift; sourceTree = "<group>"; };
+		533543A41DD7BA9F00901090 /* GameScene_OnePlayerMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene_OnePlayerMode.swift; sourceTree = "<group>"; };
+		533543A51DD7BA9F00901090 /* GameScene_Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene_Operations.swift; sourceTree = "<group>"; };
+		533543A61DD7BA9F00901090 /* GameScene_Physics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene_Physics.swift; sourceTree = "<group>"; };
+		533543A71DD7BA9F00901090 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		533543A81DD7BA9F00901090 /* GirlNinja.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GirlNinja.atlas; sourceTree = "<group>"; };
+		533543A91DD7BA9F00901090 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		533543AA1DD7BA9F00901090 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		533543AB1DD7BA9F00901090 /* Home_GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home_GameController.swift; sourceTree = "<group>"; };
+		533543AC1DD7BA9F00901090 /* Home_Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home_Store.swift; sourceTree = "<group>"; };
+		533543AD1DD7BA9F00901090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533543AE1DD7BA9F00901090 /* Knight.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Knight.atlas; sourceTree = "<group>"; };
+		533543AF1DD7BA9F00901090 /* KOMTIT__.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KOMTIT__.ttf; sourceTree = "<group>"; };
+		533543B01DD7BA9F00901090 /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
+		533543B11DD7BA9F00901090 /* Level10.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level10.sks; sourceTree = "<group>"; };
+		533543B21DD7BA9F00901090 /* Level11.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level11.sks; sourceTree = "<group>"; };
+		533543B31DD7BA9F00901090 /* Level2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level2.sks; sourceTree = "<group>"; };
+		533543B41DD7BA9F00901090 /* Level3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level3.sks; sourceTree = "<group>"; };
+		533543B51DD7BA9F00901090 /* Level4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level4.sks; sourceTree = "<group>"; };
+		533543B61DD7BA9F00901090 /* Level5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level5.sks; sourceTree = "<group>"; };
+		533543B71DD7BA9F00901090 /* Level6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level6.sks; sourceTree = "<group>"; };
+		533543B81DD7BA9F00901090 /* Level7.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level7.sks; sourceTree = "<group>"; };
+		533543B91DD7BA9F00901090 /* Level8.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level8.sks; sourceTree = "<group>"; };
+		533543BA1DD7BA9F00901090 /* Level9.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level9.sks; sourceTree = "<group>"; };
+		533543BB1DD7BA9F00901090 /* LevelData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LevelData.plist; sourceTree = "<group>"; };
+		533543BC1DD7BA9F00901090 /* LevelSelect1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LevelSelect1.sks; sourceTree = "<group>"; };
+		533543BD1DD7BA9F00901090 /* LevelSelect2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LevelSelect2.sks; sourceTree = "<group>"; };
+		533543BE1DD7BA9F00901090 /* MenuAssest.Atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = MenuAssest.Atlas; sourceTree = "<group>"; };
+		533543BF1DD7BA9F00901090 /* MovingPlatform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovingPlatform.swift; sourceTree = "<group>"; };
+		533543C01DD7BA9F00901090 /* MovingPole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovingPole.swift; sourceTree = "<group>"; };
+		533543C11DD7BA9F00901090 /* Notes.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Notes.rtf; sourceTree = "<group>"; };
+		533543C21DD7BA9F00901090 /* OrgeBoss.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = OrgeBoss.atlas; sourceTree = "<group>"; };
+		533543C31DD7BA9F00901090 /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		533543C41DD7BA9F00901090 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		533543C51DD7BA9F00901090 /* Player1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Player1.atlas; sourceTree = "<group>"; };
+		533543C61DD7BA9F00901090 /* Player2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Player2.atlas; sourceTree = "<group>"; };
+		533543C71DD7BA9F00901090 /* PlayerFire.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlayerFire.caf; sourceTree = "<group>"; };
+		533543C81DD7BA9F00901090 /* PlayerJump.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlayerJump.caf; sourceTree = "<group>"; };
+		533543C91DD7BA9F00901090 /* Pole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pole.swift; sourceTree = "<group>"; };
+		533543CA1DD7BA9F00901090 /* Portal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Portal.swift; sourceTree = "<group>"; };
+		533543CB1DD7BA9F00901090 /* Robot.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Robot.atlas; sourceTree = "<group>"; };
+		533543CC1DD7BA9F00901090 /* RobotBoss.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = RobotBoss.atlas; sourceTree = "<group>"; };
+		533543CD1DD7BA9F00901090 /* SciFi.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SciFi.atlas; sourceTree = "<group>"; };
+		533543CE1DD7BA9F00901090 /* SecretLevel1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SecretLevel1.sks; sourceTree = "<group>"; };
+		533543CF1DD7BA9F00901090 /* Select.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Select.caf; sourceTree = "<group>"; };
+		533543D01DD7BA9F00901090 /* SimpleEnemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleEnemy.swift; sourceTree = "<group>"; };
+		533543D11DD7BA9F00901090 /* SpringBoard.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SpringBoard.atlas; sourceTree = "<group>"; };
+		533543D21DD7BA9F00901090 /* SpringBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringBoard.swift; sourceTree = "<group>"; };
+		533543D31DD7BA9F00901090 /* VersusLevel1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = VersusLevel1.sks; sourceTree = "<group>"; };
+		533543D41DD7BA9F00901090 /* WinterArea.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = WinterArea.atlas; sourceTree = "<group>"; };
+		533543D51DD7BA9F00901090 /* WoodedArea.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = WoodedArea.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,8 +187,8 @@
 		0A364F061C1524FC0048E88C = {
 			isa = PBXGroup;
 			children = (
+				533543871DD7BA9F00901090 /* RoboWarstvOS */,
 				0A1BCEF81CEE135F00F739BE /* StoreKit.framework */,
-				0A364F111C1524FC0048E88C /* SideScrollertvOS */,
 				0A364F271C15250F0048E88C /* GameController.framework */,
 				0A364F101C1524FC0048E88C /* Products */,
 			);
@@ -201,144 +202,88 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0A364F111C1524FC0048E88C /* SideScrollertvOS */ = {
+		533543871DD7BA9F00901090 /* RoboWarstvOS */ = {
 			isa = PBXGroup;
 			children = (
-				53CBC6201DD78D83001CEE0E /* LevelData.plist */,
-				0A40B6C41C1688E700C94BE7 /* Notes.rtf */,
-				0A364F651C152E770048E88C /* SceneFiles */,
-				0A364F661C152E950048E88C /* GameSceneClasses */,
-				0A364F671C152EAB0048E88C /* HomeScreenClasses */,
-				0A364F681C152F120048E88C /* SpriteNodeClasses */,
-				0A40B6C21C1685B900C94BE7 /* MiscClasses */,
-				0A364F601C1526760048E88C /* Sounds */,
-				0A364F5F1C1526100048E88C /* Fonts */,
-				0A364F1A1C1524FC0048E88C /* Game.xcassets */,
-				0A364F1F1C1524FC0048E88C /* Assets.xcassets */,
-				53CBC6221DD78DA7001CEE0E /* Alien.atlas */,
-				533543851DD7932400901090 /* MenuAssest.Atlas */,
-				53CBC6231DD78DA7001CEE0E /* AlienBoss.atlas */,
-				0A11EB351C15EDD0001CF79F /* Robot.atlas */,
-				53CBC62A1DD78DE6001CEE0E /* ArmyZombie.atlas */,
-				53CBC6361DD78E20001CEE0E /* Knight.atlas */,
-				53CBC6381DD78E28001CEE0E /* OrgeBoss.atlas */,
-				53CBC6321DD78E0B001CEE0E /* FarmerZombie.atlas */,
-				53CBC62C1DD78DEF001CEE0E /* BossAlien.atlas */,
-				53CBC6341DD78E18001CEE0E /* GirlNinja.atlas */,
-				53CBC63C1DD78E6B001CEE0E /* WinterArea.atlas */,
-				53CBC63D1DD78E6B001CEE0E /* WoodedArea.atlas */,
-				53CBC62E1DD78DFA001CEE0E /* CatDog.atlas */,
-				53CBC6301DD78E02001CEE0E /* Desert.atlas */,
-				0AAF2A421C1550C100569D6C /* Explode.atlas */,
-				0AAF2A3A1C15460800569D6C /* Player1.atlas */,
-				53CBC63A1DD78E62001CEE0E /* SciFi.atlas */,
-				0AAF2A401C154F5200569D6C /* Player2.atlas */,
-				0A4ADF071D00C2E800962076 /* SpringBoard.atlas */,
-				0A364F1C1C1524FC0048E88C /* Main.storyboard */,
-				0A364F211C1524FC0048E88C /* Info.plist */,
+				533543881DD7BA9F00901090 /* Alien.atlas */,
+				533543891DD7BA9F00901090 /* AlienBoss.atlas */,
+				5335438A1DD7BA9F00901090 /* Ammo.swift */,
+				5335438B1DD7BA9F00901090 /* AppDelegate.swift */,
+				5335438C1DD7BA9F00901090 /* ArmyZombie.atlas */,
+				5335438D1DD7BA9F00901090 /* Assets.xcassets */,
+				5335438E1DD7BA9F00901090 /* ATL BEAT 10 by Anonymous.mp3 */,
+				5335438F1DD7BA9F00901090 /* ATL BEAT 8 by Anonymous.mp3 */,
+				533543901DD7BA9F00901090 /* Main.storyboard */,
+				533543921DD7BA9F00901090 /* BossAlien.atlas */,
+				533543931DD7BA9F00901090 /* Bullet.swift */,
+				533543941DD7BA9F00901090 /* Bumper.swift */,
+				533543951DD7BA9F00901090 /* Button.swift */,
+				533543961DD7BA9F00901090 /* CatDog.atlas */,
+				533543971DD7BA9F00901090 /* Coin.caf */,
+				533543981DD7BA9F00901090 /* Coin.swift */,
+				533543991DD7BA9F00901090 /* DeadZone.swift */,
+				5335439A1DD7BA9F00901090 /* Desert.atlas */,
+				5335439B1DD7BA9F00901090 /* Enemy.swift */,
+				5335439C1DD7BA9F00901090 /* EnemyBumper.swift */,
+				5335439D1DD7BA9F00901090 /* EnemyHurt.caf */,
+				5335439E1DD7BA9F00901090 /* Explode.atlas */,
+				5335439F1DD7BA9F00901090 /* Explosion.caf */,
+				533543A01DD7BA9F00901090 /* FarmerZombie.atlas */,
+				533543A11DD7BA9F00901090 /* Game.xcassets */,
+				533543A21DD7BA9F00901090 /* GameScene.swift */,
+				533543A31DD7BA9F00901090 /* GameScene_GameController.swift */,
+				533543A41DD7BA9F00901090 /* GameScene_OnePlayerMode.swift */,
+				533543A51DD7BA9F00901090 /* GameScene_Operations.swift */,
+				533543A61DD7BA9F00901090 /* GameScene_Physics.swift */,
+				533543A71DD7BA9F00901090 /* GameViewController.swift */,
+				533543A81DD7BA9F00901090 /* GirlNinja.atlas */,
+				533543A91DD7BA9F00901090 /* Helpers.swift */,
+				533543AA1DD7BA9F00901090 /* Home.swift */,
+				533543AB1DD7BA9F00901090 /* Home_GameController.swift */,
+				533543AC1DD7BA9F00901090 /* Home_Store.swift */,
+				533543AD1DD7BA9F00901090 /* Info.plist */,
+				533543AE1DD7BA9F00901090 /* Knight.atlas */,
+				533543AF1DD7BA9F00901090 /* KOMTIT__.ttf */,
+				533543B01DD7BA9F00901090 /* Level1.sks */,
+				533543B11DD7BA9F00901090 /* Level10.sks */,
+				533543B21DD7BA9F00901090 /* Level11.sks */,
+				533543B31DD7BA9F00901090 /* Level2.sks */,
+				533543B41DD7BA9F00901090 /* Level3.sks */,
+				533543B51DD7BA9F00901090 /* Level4.sks */,
+				533543B61DD7BA9F00901090 /* Level5.sks */,
+				533543B71DD7BA9F00901090 /* Level6.sks */,
+				533543B81DD7BA9F00901090 /* Level7.sks */,
+				533543B91DD7BA9F00901090 /* Level8.sks */,
+				533543BA1DD7BA9F00901090 /* Level9.sks */,
+				533543BB1DD7BA9F00901090 /* LevelData.plist */,
+				533543BC1DD7BA9F00901090 /* LevelSelect1.sks */,
+				533543BD1DD7BA9F00901090 /* LevelSelect2.sks */,
+				533543BE1DD7BA9F00901090 /* MenuAssest.Atlas */,
+				533543BF1DD7BA9F00901090 /* MovingPlatform.swift */,
+				533543C01DD7BA9F00901090 /* MovingPole.swift */,
+				533543C11DD7BA9F00901090 /* Notes.rtf */,
+				533543C21DD7BA9F00901090 /* OrgeBoss.atlas */,
+				533543C31DD7BA9F00901090 /* Platform.swift */,
+				533543C41DD7BA9F00901090 /* Player.swift */,
+				533543C51DD7BA9F00901090 /* Player1.atlas */,
+				533543C61DD7BA9F00901090 /* Player2.atlas */,
+				533543C71DD7BA9F00901090 /* PlayerFire.caf */,
+				533543C81DD7BA9F00901090 /* PlayerJump.caf */,
+				533543C91DD7BA9F00901090 /* Pole.swift */,
+				533543CA1DD7BA9F00901090 /* Portal.swift */,
+				533543CB1DD7BA9F00901090 /* Robot.atlas */,
+				533543CC1DD7BA9F00901090 /* RobotBoss.atlas */,
+				533543CD1DD7BA9F00901090 /* SciFi.atlas */,
+				533543CE1DD7BA9F00901090 /* SecretLevel1.sks */,
+				533543CF1DD7BA9F00901090 /* Select.caf */,
+				533543D01DD7BA9F00901090 /* SimpleEnemy.swift */,
+				533543D11DD7BA9F00901090 /* SpringBoard.atlas */,
+				533543D21DD7BA9F00901090 /* SpringBoard.swift */,
+				533543D31DD7BA9F00901090 /* VersusLevel1.sks */,
+				533543D41DD7BA9F00901090 /* WinterArea.atlas */,
+				533543D51DD7BA9F00901090 /* WoodedArea.atlas */,
 			);
-			path = SideScrollertvOS;
-			sourceTree = "<group>";
-		};
-		0A364F5F1C1526100048E88C /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				0AAF2A381C1539C400569D6C /* KOMTIT__.ttf */,
-			);
-			name = Fonts;
-			sourceTree = "<group>";
-		};
-		0A364F601C1526760048E88C /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
-				0AC7D3201C2197D6006E2B40 /* ATL BEAT 8 by Anonymous.mp3 */,
-				0AC7D3211C2197D6006E2B40 /* ATL BEAT 10 by Anonymous.mp3 */,
-				0A8DEF091C1A35F500FCACD6 /* Explosion.caf */,
-				0A822B311C166AAF0049753B /* EnemyHurt.caf */,
-				0A364F611C1526840048E88C /* Select.caf */,
-				0A5D4A5C1C161FF100494951 /* PlayerFire.caf */,
-				0A5D4A601C16234E00494951 /* Coin.caf */,
-				0A5D4A5E1C161FFB00494951 /* PlayerJump.caf */,
-			);
-			name = Sounds;
-			sourceTree = "<group>";
-		};
-		0A364F651C152E770048E88C /* SceneFiles */ = {
-			isa = PBXGroup;
-			children = (
-				5335437F1DD7926200901090 /* Home.sks */,
-				533543811DD7928900901090 /* LevelSelect1.sks */,
-				533543821DD7928900901090 /* LevelSelect2.sks */,
-				53CBC6401DD79085001CEE0E /* Level1.sks */,
-				53CBC6411DD79085001CEE0E /* Level2.sks */,
-				53CBC6421DD79085001CEE0E /* Level3.sks */,
-				53CBC6431DD79085001CEE0E /* Level4.sks */,
-				53CBC6441DD79085001CEE0E /* Level5.sks */,
-				53CBC6451DD79085001CEE0E /* Level6.sks */,
-				53CBC6461DD79085001CEE0E /* Level7.sks */,
-				53CBC6471DD79085001CEE0E /* Level8.sks */,
-				53CBC6481DD79085001CEE0E /* Level9.sks */,
-				53CBC6491DD79085001CEE0E /* Level10.sks */,
-				53CBC64A1DD79085001CEE0E /* Level11.sks */,
-				0A544C0D1C1635A2008AC539 /* VersusLevel1.sks */,
-				0AE416D61C480CF800ADBDE9 /* SecretLevel1.sks */,
-			);
-			name = SceneFiles;
-			sourceTree = "<group>";
-		};
-		0A364F661C152E950048E88C /* GameSceneClasses */ = {
-			isa = PBXGroup;
-			children = (
-				0A364F2E1C1526070048E88C /* GameScene.swift */,
-				0A5971641C173030000CE1C7 /* GameScene_Operations.swift */,
-				0A5971621C172F72000CE1C7 /* GameScene_Physics.swift */,
-				0A364F2F1C1526070048E88C /* GameScene_GameController.swift */,
-				0A364F301C1526070048E88C /* GameScene_OnePlayerMode.swift */,
-			);
-			name = GameSceneClasses;
-			sourceTree = "<group>";
-		};
-		0A364F671C152EAB0048E88C /* HomeScreenClasses */ = {
-			isa = PBXGroup;
-			children = (
-				0A364F321C1526070048E88C /* Button.swift */,
-				0A364F311C1526070048E88C /* Home.swift */,
-				0A1BCEFA1CEE137C00F739BE /* Home_Store.swift */,
-				0A364F331C1526070048E88C /* Home_GameController.swift */,
-			);
-			name = HomeScreenClasses;
-			sourceTree = "<group>";
-		};
-		0A364F681C152F120048E88C /* SpriteNodeClasses */ = {
-			isa = PBXGroup;
-			children = (
-				0A364F341C1526070048E88C /* Player.swift */,
-				0A364F351C1526070048E88C /* Platform.swift */,
-				0A364F361C1526070048E88C /* MovingPlatform.swift */,
-				0A4ADF051D00BDB700962076 /* SpringBoard.swift */,
-				0A364F391C1526070048E88C /* DeadZone.swift */,
-				0A364F3A1C1526070048E88C /* Enemy.swift */,
-				0A364F3B1C1526070048E88C /* SimpleEnemy.swift */,
-				0A364F3C1C1526070048E88C /* Ammo.swift */,
-				0A364F3D1C1526070048E88C /* Bullet.swift */,
-				0A364F3E1C1526070048E88C /* Coin.swift */,
-				0A364F3F1C1526070048E88C /* Portal.swift */,
-				0A364F401C1526070048E88C /* Bumper.swift */,
-				0A544C071C162E10008AC539 /* EnemyBumper.swift */,
-				0A364F411C1526070048E88C /* Pole.swift */,
-				0A364F421C1526070048E88C /* MovingPole.swift */,
-			);
-			name = SpriteNodeClasses;
-			sourceTree = "<group>";
-		};
-		0A40B6C21C1685B900C94BE7 /* MiscClasses */ = {
-			isa = PBXGroup;
-			children = (
-				0A364F431C1526070048E88C /* GameViewController.swift */,
-				0A364F2C1C1526070048E88C /* AppDelegate.swift */,
-				0A364F441C1526070048E88C /* Helpers.swift */,
-			);
-			name = MiscClasses;
+			path = RoboWarstvOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,7 +340,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0A364F0A1C1524FC0048E88C /* Build configuration list for PBXProject "SideScrollertvOS" */;
+			buildConfigurationList = 0A364F0A1C1524FC0048E88C /* Build configuration list for PBXProject "RoboWarstvOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -418,55 +363,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				533543841DD7928900901090 /* LevelSelect2.sks in Resources */,
-				533543801DD7926200901090 /* Home.sks in Resources */,
-				53CBC6211DD78D83001CEE0E /* LevelData.plist in Resources */,
-				53CBC62D1DD78DEF001CEE0E /* BossAlien.atlas in Resources */,
-				53CBC63B1DD78E62001CEE0E /* SciFi.atlas in Resources */,
-				0A544C0E1C1635A2008AC539 /* VersusLevel1.sks in Resources */,
-				0A364F1E1C1524FC0048E88C /* Main.storyboard in Resources */,
-				0A5D4A5F1C161FFB00494951 /* PlayerJump.caf in Resources */,
-				0A364F201C1524FC0048E88C /* Assets.xcassets in Resources */,
-				53CBC6541DD79085001CEE0E /* Level10.sks in Resources */,
-				0A5D4A611C16234E00494951 /* Coin.caf in Resources */,
-				0AAF2A411C154F5200569D6C /* Player2.atlas in Resources */,
-				0A11EB361C15EDD0001CF79F /* Robot.atlas in Resources */,
-				53CBC64C1DD79085001CEE0E /* Level2.sks in Resources */,
-				0AAF2A3B1C15460800569D6C /* Player1.atlas in Resources */,
-				53CBC62B1DD78DE6001CEE0E /* ArmyZombie.atlas in Resources */,
-				0A364F1B1C1524FC0048E88C /* Game.xcassets in Resources */,
-				53CBC6501DD79085001CEE0E /* Level6.sks in Resources */,
-				53CBC64F1DD79085001CEE0E /* Level5.sks in Resources */,
-				0A364F621C1526840048E88C /* Select.caf in Resources */,
-				53CBC6251DD78DA7001CEE0E /* AlienBoss.atlas in Resources */,
-				533543861DD7932400901090 /* MenuAssest.Atlas in Resources */,
-				0AAF2A391C1539C400569D6C /* KOMTIT__.ttf in Resources */,
-				0AAF2A431C1550C100569D6C /* Explode.atlas in Resources */,
-				53CBC62F1DD78DFA001CEE0E /* CatDog.atlas in Resources */,
-				0AC7D3231C2197D6006E2B40 /* ATL BEAT 10 by Anonymous.mp3 in Resources */,
-				533543831DD7928900901090 /* LevelSelect1.sks in Resources */,
-				53CBC6241DD78DA7001CEE0E /* Alien.atlas in Resources */,
-				53CBC6531DD79085001CEE0E /* Level9.sks in Resources */,
-				53CBC6371DD78E20001CEE0E /* Knight.atlas in Resources */,
-				53CBC6391DD78E28001CEE0E /* OrgeBoss.atlas in Resources */,
-				53CBC6551DD79085001CEE0E /* Level11.sks in Resources */,
-				53CBC64D1DD79085001CEE0E /* Level3.sks in Resources */,
-				53CBC6331DD78E0B001CEE0E /* FarmerZombie.atlas in Resources */,
-				53CBC6311DD78E02001CEE0E /* Desert.atlas in Resources */,
-				53CBC6521DD79085001CEE0E /* Level8.sks in Resources */,
-				0AC7D3221C2197D6006E2B40 /* ATL BEAT 8 by Anonymous.mp3 in Resources */,
-				0A8DEF0A1C1A35F500FCACD6 /* Explosion.caf in Resources */,
-				53CBC64E1DD79085001CEE0E /* Level4.sks in Resources */,
-				0AE416D71C480CF800ADBDE9 /* SecretLevel1.sks in Resources */,
-				0A822B321C166AAF0049753B /* EnemyHurt.caf in Resources */,
-				0A40B6C51C1688E700C94BE7 /* Notes.rtf in Resources */,
-				53CBC63F1DD78E6B001CEE0E /* WoodedArea.atlas in Resources */,
-				53CBC6511DD79085001CEE0E /* Level7.sks in Resources */,
-				53CBC6351DD78E18001CEE0E /* GirlNinja.atlas in Resources */,
-				0A5D4A5D1C161FF100494951 /* PlayerFire.caf in Resources */,
-				53CBC64B1DD79085001CEE0E /* Level1.sks in Resources */,
-				0A4ADF081D00C2E800962076 /* SpringBoard.atlas in Resources */,
-				53CBC63E1DD78E6B001CEE0E /* WinterArea.atlas in Resources */,
+				533544201DD7BA9F00901090 /* VersusLevel1.sks in Resources */,
+				533544091DD7BA9F00901090 /* LevelSelect1.sks in Resources */,
+				533543DE1DD7BA9F00901090 /* Main.storyboard in Resources */,
+				533543DA1DD7BA9F00901090 /* ArmyZombie.atlas in Resources */,
+				533543FA1DD7BA9F00901090 /* Info.plist in Resources */,
+				533543EC1DD7BA9F00901090 /* Explosion.caf in Resources */,
+				533543EE1DD7BA9F00901090 /* Game.xcassets in Resources */,
+				533544021DD7BA9F00901090 /* Level4.sks in Resources */,
+				533544191DD7BA9F00901090 /* RobotBoss.atlas in Resources */,
+				533543FB1DD7BA9F00901090 /* Knight.atlas in Resources */,
+				533543EA1DD7BA9F00901090 /* EnemyHurt.caf in Resources */,
+				533543DF1DD7BA9F00901090 /* BossAlien.atlas in Resources */,
+				533543ED1DD7BA9F00901090 /* FarmerZombie.atlas in Resources */,
+				533543E31DD7BA9F00901090 /* CatDog.atlas in Resources */,
+				533544121DD7BA9F00901090 /* Player1.atlas in Resources */,
+				533543DC1DD7BA9F00901090 /* ATL BEAT 10 by Anonymous.mp3 in Resources */,
+				533543E71DD7BA9F00901090 /* Desert.atlas in Resources */,
+				5335441B1DD7BA9F00901090 /* SecretLevel1.sks in Resources */,
+				533543EB1DD7BA9F00901090 /* Explode.atlas in Resources */,
+				533543FF1DD7BA9F00901090 /* Level11.sks in Resources */,
+				533544211DD7BA9F00901090 /* WinterArea.atlas in Resources */,
+				5335440E1DD7BA9F00901090 /* Notes.rtf in Resources */,
+				5335440B1DD7BA9F00901090 /* MenuAssest.Atlas in Resources */,
+				533544151DD7BA9F00901090 /* PlayerJump.caf in Resources */,
+				533544041DD7BA9F00901090 /* Level6.sks in Resources */,
+				533543DD1DD7BA9F00901090 /* ATL BEAT 8 by Anonymous.mp3 in Resources */,
+				533543FC1DD7BA9F00901090 /* KOMTIT__.ttf in Resources */,
+				5335441A1DD7BA9F00901090 /* SciFi.atlas in Resources */,
+				533543D71DD7BA9F00901090 /* AlienBoss.atlas in Resources */,
+				533544061DD7BA9F00901090 /* Level8.sks in Resources */,
+				533544131DD7BA9F00901090 /* Player2.atlas in Resources */,
+				533544141DD7BA9F00901090 /* PlayerFire.caf in Resources */,
+				533544221DD7BA9F00901090 /* WoodedArea.atlas in Resources */,
+				5335440A1DD7BA9F00901090 /* LevelSelect2.sks in Resources */,
+				533543DB1DD7BA9F00901090 /* Assets.xcassets in Resources */,
+				533544071DD7BA9F00901090 /* Level9.sks in Resources */,
+				533543D61DD7BA9F00901090 /* Alien.atlas in Resources */,
+				5335441C1DD7BA9F00901090 /* Select.caf in Resources */,
+				533544011DD7BA9F00901090 /* Level3.sks in Resources */,
+				533544001DD7BA9F00901090 /* Level2.sks in Resources */,
+				533544031DD7BA9F00901090 /* Level5.sks in Resources */,
+				533544051DD7BA9F00901090 /* Level7.sks in Resources */,
+				5335441E1DD7BA9F00901090 /* SpringBoard.atlas in Resources */,
+				533544081DD7BA9F00901090 /* LevelData.plist in Resources */,
+				533543E41DD7BA9F00901090 /* Coin.caf in Resources */,
+				533543FE1DD7BA9F00901090 /* Level10.sks in Resources */,
+				533543F51DD7BA9F00901090 /* GirlNinja.atlas in Resources */,
+				5335440F1DD7BA9F00901090 /* OrgeBoss.atlas in Resources */,
+				533544181DD7BA9F00901090 /* Robot.atlas in Resources */,
+				533543FD1DD7BA9F00901090 /* Level1.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,43 +423,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A364F581C1526070048E88C /* Coin.swift in Sources */,
-				0A364F571C1526070048E88C /* Bullet.swift in Sources */,
-				0A364F5A1C1526070048E88C /* Bumper.swift in Sources */,
-				0A364F541C1526070048E88C /* Enemy.swift in Sources */,
-				0A1BCEFB1CEE137C00F739BE /* Home_Store.swift in Sources */,
-				0A364F4F1C1526070048E88C /* Platform.swift in Sources */,
-				0A364F591C1526070048E88C /* Portal.swift in Sources */,
-				0A364F4D1C1526070048E88C /* Home_GameController.swift in Sources */,
-				0A364F491C1526070048E88C /* GameScene_GameController.swift in Sources */,
-				0A364F551C1526070048E88C /* SimpleEnemy.swift in Sources */,
-				0A364F5B1C1526070048E88C /* Pole.swift in Sources */,
-				0A364F4C1C1526070048E88C /* Button.swift in Sources */,
-				0A364F481C1526070048E88C /* GameScene.swift in Sources */,
-				0A5971631C172F72000CE1C7 /* GameScene_Physics.swift in Sources */,
-				0A364F5D1C1526070048E88C /* GameViewController.swift in Sources */,
-				0A364F4E1C1526070048E88C /* Player.swift in Sources */,
-				0A364F501C1526070048E88C /* MovingPlatform.swift in Sources */,
-				0A5971651C173030000CE1C7 /* GameScene_Operations.swift in Sources */,
-				0A364F4B1C1526070048E88C /* Home.swift in Sources */,
-				0A544C081C162E10008AC539 /* EnemyBumper.swift in Sources */,
-				0A4ADF061D00BDB700962076 /* SpringBoard.swift in Sources */,
-				0A364F5C1C1526070048E88C /* MovingPole.swift in Sources */,
-				0A364F5E1C1526070048E88C /* Helpers.swift in Sources */,
-				0A364F461C1526070048E88C /* AppDelegate.swift in Sources */,
-				0A364F4A1C1526070048E88C /* GameScene_OnePlayerMode.swift in Sources */,
-				0A364F531C1526070048E88C /* DeadZone.swift in Sources */,
-				0A364F561C1526070048E88C /* Ammo.swift in Sources */,
+				533543F31DD7BA9F00901090 /* GameScene_Physics.swift in Sources */,
+				533543EF1DD7BA9F00901090 /* GameScene.swift in Sources */,
+				533543E51DD7BA9F00901090 /* Coin.swift in Sources */,
+				533543F91DD7BA9F00901090 /* Home_Store.swift in Sources */,
+				533544111DD7BA9F00901090 /* Player.swift in Sources */,
+				533543E91DD7BA9F00901090 /* EnemyBumper.swift in Sources */,
+				533544171DD7BA9F00901090 /* Portal.swift in Sources */,
+				533543F11DD7BA9F00901090 /* GameScene_OnePlayerMode.swift in Sources */,
+				533544101DD7BA9F00901090 /* Platform.swift in Sources */,
+				533543F01DD7BA9F00901090 /* GameScene_GameController.swift in Sources */,
+				533543F71DD7BA9F00901090 /* Home.swift in Sources */,
+				533543E61DD7BA9F00901090 /* DeadZone.swift in Sources */,
+				5335441D1DD7BA9F00901090 /* SimpleEnemy.swift in Sources */,
+				533543E21DD7BA9F00901090 /* Button.swift in Sources */,
+				5335440D1DD7BA9F00901090 /* MovingPole.swift in Sources */,
+				533544161DD7BA9F00901090 /* Pole.swift in Sources */,
+				533543D91DD7BA9F00901090 /* AppDelegate.swift in Sources */,
+				533543E81DD7BA9F00901090 /* Enemy.swift in Sources */,
+				533543F41DD7BA9F00901090 /* GameViewController.swift in Sources */,
+				533543F61DD7BA9F00901090 /* Helpers.swift in Sources */,
+				5335441F1DD7BA9F00901090 /* SpringBoard.swift in Sources */,
+				533543D81DD7BA9F00901090 /* Ammo.swift in Sources */,
+				533543F81DD7BA9F00901090 /* Home_GameController.swift in Sources */,
+				5335440C1DD7BA9F00901090 /* MovingPlatform.swift in Sources */,
+				533543E11DD7BA9F00901090 /* Bumper.swift in Sources */,
+				533543E01DD7BA9F00901090 /* Bullet.swift in Sources */,
+				533543F21DD7BA9F00901090 /* GameScene_Operations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0A364F1C1C1524FC0048E88C /* Main.storyboard */ = {
+		533543901DD7BA9F00901090 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0A364F1D1C1524FC0048E88C /* Base */,
+				533543911DD7BA9F00901090 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -610,7 +556,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = JN6SRFFEJW;
-				INFOPLIST_FILE = SideScrollertvOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RoboWarstvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RoboWars.DocsPlayground.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -627,7 +573,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = JN6SRFFEJW;
-				INFOPLIST_FILE = SideScrollertvOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RoboWarstvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RoboWars.DocsPlayground.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -640,7 +586,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A364F0A1C1524FC0048E88C /* Build configuration list for PBXProject "SideScrollertvOS" */ = {
+		0A364F0A1C1524FC0048E88C /* Build configuration list for PBXProject "RoboWarstvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A364F221C1524FC0048E88C /* Debug */,
